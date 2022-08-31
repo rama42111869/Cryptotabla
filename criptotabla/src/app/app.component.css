@@ -1,0 +1,51 @@
+.row2{
+    background: #007bff;
+}
+
+footer{
+    color: #fefefe;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 2px -2px 5px #999;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logoAP{
+width: 150px;
+}
+
+img{
+    width: 50px;
+}
+
+.redes{
+    margin-right: 0.5em;
+}
+
+.btn{
+    border-width: medium;
+}
+
+/*Vista del celular*/
+@media(max-width:575px){
+    .container{
+        flex-direction: column;
+    }
+    
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .redes img{
+        margin: 0.2em;
+    }
+}
